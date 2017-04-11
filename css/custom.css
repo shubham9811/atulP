@@ -1,0 +1,531 @@
+
+/** HEADER **/
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+/*....*/
+#logo-img {
+  background: url('../img/LOGO.jpg') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.home{
+	height: 600px;
+	position: relative;
+	background: url("../img/back.jpg") no-repeat center;
+}
+
+.brand-name {
+	position: relative;
+	top: 10%;
+	left: 20%;
+	font-family: raleway;
+}
+.brand-name h1 {
+	color: red;
+	font-weight: 800;
+	font-size: 3.5em;
+	line-height: 0.9em;
+}
+
+.brand-name h1 span {
+	display: block;
+	position: relative;
+	left: 4.5%;
+	color: #FFCC99;
+}
+
+.brand-name h3 {
+	margin-top: 5px;
+	color: #eee;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+.arrow-contain {
+	position: absolute;
+	left: 50%;
+	bottom: 8%;
+	border-radius: 50px;
+	border: 2px solid #999;
+	width: 50px;
+	height: 50px;
+
+}
+
+@-webkit-keyframes animate {
+    0%   {top: 22%;}
+    100% {top: 34%;}
+}
+@-moz-keyframes animate {
+    0%   {top: 22%;}
+    100% {top: 34%;}
+}
+@-o-keyframes animate {
+    0%   {top: 22%;}
+    100% {top: 34%;}
+}
+
+@-keyframes animate {
+    0%   {top: 22%;}
+    100% {top: 34%;}
+}
+.fa-angle-double-down {
+	color: #999;
+	font-size: 2em;
+	position: relative;
+	left: 31%;
+	top: 28%;
+	-webkit-animation: animate 0.9s ease-in infinite ;
+	-moz-animation: animate 0.9s ease-in infinite ;
+	-o-animation: animate 0.9s ease-in infinite ;
+	-webkit-animation: animate 0.9s ease-in infinite ;
+}
+
+.hover-display {
+	display: none;
+	color: #666;
+	position: absolute;
+	top: 93%;
+	left: 48%;
+	text-align: center;
+}
+
+
+.fa-quote-left, .fa-quote-right {
+	font-size: 2.3em;
+}
+
+
+/*=======team page starts=========*/
+.team-bg {
+	background-color: #333434;
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin: 0;
+}
+
+
+.team-container {
+	padding-top: 70px;
+	margin-bottom: 50px;
+}
+
+.team-bg h2 {
+	font-family: sans-serif, Tahoma, Arial;
+	margin-bottom: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+.team-bg hr {
+	width:2%;
+	text-align:center;
+	margin-bottom: 80px;
+}
+
+.fa-linkedin {
+	position: relative;
+	color: #11b5c3;
+	font-size: 25px;
+	top: 85px;
+}
+
+.member-image img {
+    margin: 0;
+    width: 100%;
+}
+.member-image-container {
+    position: relative;
+}
+.member-text-content {
+    background-color: rgba(51, 52, 52, 0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: all 0.5s ease 0s;
+}
+.member-text-content:hover {
+    background-color: rgba(51, 52, 52, 0.7);
+}
+.member-text {
+    height: 100%;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0 20px 10px;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    color: #fff;
+    font-family: raleway;
+}
+
+.member-text h4 {
+	font-size: 20px;
+}
+
+.member-text h5 {
+	font-size: 30px;
+}
+
+.member-text p {
+	font-size: 20px;
+}
+
+.member-text:hover {
+    opacity: 1;
+}
+.member-text .fancy-line {
+    margin-bottom: 1em;
+}
+
+.fancy-line {
+    background-color: #11b5c3;
+    height: 3px;
+    margin: 0.5em 0;
+    width: 50px;
+}
+/*=======team page ends=========*/
+
+/*=======testimonial page starts=========*/
+.test-bg {
+	width: 100%;
+	height: all;
+	background-color: #e25350;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #fff;
+}
+
+.test-container {
+	padding-top: 30px;
+}
+
+.test-container h1 {
+	font-family: raleway;
+	font-weight: 800;
+	font-size: 3em;
+	color: #fff;
+	text-align: center;
+}
+
+.item img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+.carousel-control {
+
+    font-size: 40px;
+    color: #fed701;
+    text-shadow: none;
+
+}
+
+.carousel-control.right, .carousel-control.left {
+	background-image: none;
+	position: relative;
+    left: 45%;
+}
+
+
+
+.carousel-control:hover,
+.carousel-control:active,
+.carousel-control:link
+.carousel-control:focus,
+.carousel-control:visited {
+    color: #fed701;
+    text-decoration: none;
+}
+
+a {
+	background-color: none;
+}
+
+blockquote {
+    border-left: 5px solid #545656;
+}
+
+.blockquote {
+    color: #444;
+    font-size: 1.1em;
+}
+/*=======testimonial page ends=========*/
+
+/*======== contact us page ========*/
+
+.contact-bg {
+	width: 100%;
+	height: auto;
+	background-color: #0c0e0e;
+	position: relative;
+	color: #fff;
+}
+
+
+.contact-info {
+	margin: 100px 0 0 20px;
+}
+
+.contact-info h3{
+	font-family: raleway;
+	font-weight: 800;
+}
+
+.unstyled {
+	position: relative;
+	top: 20px;
+}
+
+.contact-info ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.contact-info li{
+	margin-bottom:15px;
+}
+.contact-info li span {
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	color: #11b5c3;
+	text-align: center;
+	display: inline-block;
+	margin: 0 15px 0 0;
+	background: #fed701;
+}
+
+.contact-info ul li a,
+.contact-info ul li a:active,
+.contact-info ul li a:visited,
+.contact-info ul li a:hover,
+.contact-info ul li a:link{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.info-text{
+	overflow: hidden;
+	font-family: sans-serif, Tahoma;
+	font-size: 1.1em;
+	font-weight: 0;
+}
+
+.form-header {
+	font-family: raleway;
+	font-weight: 800;
+}
+
+
+
+
+/*======== contact form ========*/
+.form-head {
+	font-family: raleway;
+	font-size: 2em;
+	color: #fff;
+	font-weight: 800;
+}
+
+.form-container {
+	position: relative;
+	padding: 75px 0 20px 0;
+	margin-bottom: 200px;
+}
+
+#contact_form label {
+	color:#666;
+	margin:8px 0;
+	font-size:13px;
+	display:block;
+	font-weight:normal;
+}
+#contact_form label.error{
+	font-size:12px;
+	color:#F00;
+}
+#contact_form input, #contact_form textarea {
+	padding:12px 8px;
+	font-size:12px;
+	color:#333;
+	border-radius:0;
+	border:none;
+	margin-bottom:5px;
+	background:#FFF;
+	color:#666666;
+	border:1px solid #e3e3e3
+}
+#contact_form .send-btn {
+	padding:10px 15px;
+	text-transform:uppercase;
+	margin-top:15px;
+	border:none;
+	font-family: Ikaros;
+	border-radius:3px;
+	color: #fed701;
+	background-color: #909393;
+}
+#contact_form .send-btn:hover {
+	background: #11b5c3;
+}
+#contact_form .send-btn i {
+	font-size:20px;
+	margin-left:5px;
+	top:2px
+}
+
+.fa-map-marker, .fa-envelope-o, .fa-globe {
+	font-size: 1.5em;
+	padding-right: 7px;
+	padding-top: 2px;
+	color: #eee;
+}
+
+/*======== contact us page ends========*/
+
+
+
+/*======== Footer ========*/
+.footer-bg{
+	background-color: #333434;
+}
+
+.copyright {
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: sans-serif, Tahoma, Arial;
+	color: #fff;
+	line-height: 1.4em;
+}
+
+/*======== Footer Ends ========*/
+
+#back-top {
+	bottom: 20px;
+	position: fixed;
+	right: 20px;
+	display: block;
+}
+#back-top a {
+	height: 32px;
+	line-height: 32px;
+	width: 32px;
+	display: block;
+	color: #fff;
+	text-align: center;
+	background: #7D7C7C ;
+}
+
+#thank-you {
+	background: #444;
+	text-align: center;
+}
+
+#content {
+	font-size: 2em;
+	line-height: 1em;
+	color: #f0f0f0;
+	margin-top: 10%;
+}
+
+.back-to-home {
+	border-radius: 50px;
+	margin: 20px 0;
+	border: 1px solid #fff;
+	font-size: 1.7em;
+	color: #fff;
+	padding: 10px 30px ;
+}
+
+.back-to-home a:link,.back-to-home a:active, .back-to-home a:visited, .back-to-home a:hover {
+	text-decoration: none;
+	text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+	
+	.home{
+	background: url("../img/back.jpg") no-repeat center;
+	}
+
+	.brand-name {
+	left: 2%;
+	}
+
+	.brand-name h1 {
+	font-size: 3.0em;
+	}
+
+	.brand-name h1 span {
+	left: 4%;
+	}
+}
+
+
+
+@media screen and (max-width: 500px) {
+	.products .carousel-nav-wrap {
+    left: 35%;
+    top: 77%;
+	}
+
+	.form-container {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.products .carousel-nav-wrap {
+    left: 50%;;
+    top: 66%;
+	}
+}
